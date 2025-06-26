@@ -28,7 +28,7 @@ public class estadoController {
 
     @GetMapping("/listarEstado")
     public ModelAndView listar(){
-        ModelAndView mv = new ModelAndView("administrativo/estados/lista");
+        ModelAndView mv = new ModelAndView("administrativo/estados/listarEstado");
         mv.addObject("listaEstados", estadoRepository.findAll());
         return mv;
     }
