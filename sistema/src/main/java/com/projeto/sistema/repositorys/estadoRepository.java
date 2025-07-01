@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.projeto.sistema.models.Estado;
 
-public interface estadoRepository extends JpaRepository<Estado,Long>{
+public interface EstadoRepository extends JpaRepository<Estado,Long>{
 
 }

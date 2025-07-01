@@ -10,7 +10,7 @@ import org.springframework.orm.jpa.vendor.Database;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 
 @Configuration
-public class configDataBase {
+public class ConfigDataBase {
 
 	@Bean
 	public DataSource dataSource() {

@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.projeto.sistema.models.Estado;
-import com.projeto.sistema.repositorys.estadoRepository;
+import com.projeto.sistema.repositorys.EstadoRepository;
 
 @Controller
-public class estadoController {
+public class EstadoController {
 
     @Autowired
-    private estadoRepository estadoRepository;
+    private EstadoRepository estadoRepository;
 
     @GetMapping("/cadastroEstado")
     public ModelAndView cadastrar(Estado estado) {
